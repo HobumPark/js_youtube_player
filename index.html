@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sideVideoList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/sideVideo.js"></script>
+    <title>유튜브 플레이어</title>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <span style="color:red">
+                <i class="fa-brands fa-youtube fa-5x"></i>
+            </span>
+            <span id="youtube-title">
+                YouTube<sup>KR</sup>
+            </span>
+            <div id="search-area">
+                <input type="text" placeholder="검색">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </button>
+            </div>
+        </header>
+        <div id="main">
+            <div id="main-video">
+                <iframe width="95%" height="85%" 
+                src="https://www.youtube.com/embed/pSUydWEqKwE" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div id="main-video-desc">
+                    <span id="main-video-title">
+                        New Jeans(뉴진스) - Ditto
+                    </span>
+                    <span id="main-video-info">
+
+                    </span>
+                </div>
+            </div>
+            <div id="side-video-list">
+
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="logo">
+                <span style="color:red">
+                    <i class="fa-brands fa-youtube fa-5x"></i>
+                </span>
+            </div>
+            <div id="copyright">
+                <address>
+                    copyrights youtube<sup>kr</sup>
+                </address>
+            </div>
+            <div id="sns">
+                <span style="color:red">
+                    <i class="fa-brands fa-youtube fa-4x"></i>
+                </span>
+                <span style="color:blue">
+                    <i class="fa-brands fa-facebook fa-4x"></i>
+                </span>
+                <span style="color:pink">
+                    <i class="fa-brands fa-instagram fa-4x"></i>
+                </span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

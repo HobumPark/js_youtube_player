@@ -1,0 +1,47 @@
+
+#side-video-list>#side-video{
+    width:97%;
+    height:150px;
+    /* background-color: darkgrey; */
+    margin:5px;
+    margin-bottom: 10px;
+    /* cursor: pointer; */
+}
+
+#side-video>#side-left{
+    float:left;
+    width:40%;
+    height:100%;
+    /* background-color: darkkhaki; */
+    padding:5px 5px;
+    box-sizing: border-box;
+}
+#side-left>img{
+    width:100%;
+    height:90%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#side-video>#side-right{
+    float:left;
+    width:60%;
+    height:100%;
+    /* background-color: darkmagenta; */
+}
+#side-right>div:first-child{
+    width:100%;
+    height:50px;
+    /* background-color: darkred; */
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#side-right>div:nth-child(2){
+    width:100%;
+    height:50px;
+    /* background-color: darksalmon; */
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
